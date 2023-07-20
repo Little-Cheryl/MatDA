@@ -10,25 +10,22 @@ Code for Improving realistic material property prediction using domain adaptatio
 ~~~
 conda create -n adapt
 conda activate adapt
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-pip install -e improved-diffusion/ 
-pip install -e transformers/
-pip install spacy==3.2.4
-pip install datasets==1.8.0 
-pip install huggingface_hub==0.4.0 
-pip install wandb 
+pip install adapt
+pip install matminer
+pip install numpy==1.23
 ~~~
 
-2) Set up a virtual environment for the modnet model
+2) Set up a virtual environment for the modnet model 
 
 
 ```
-cd code/Diffusion-LM/improved-diffusion 
-mkdir diffusion_models
-sh run.sh
+conda create -n modnet
+conda activate modnet
+pip install modnet
 ```
 
-the trained model is saved in ./diffusion_models
+
+### How to run the codes
 
 3) Set up a virtual environment for the ROOST model
 
