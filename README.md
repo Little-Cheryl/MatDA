@@ -29,12 +29,12 @@ pip install modnet
 
 1) As mentioned in the paper, we have 5 bandgap datasets for regression and 5 glass datasets for classification.
 2) For regression problems, all codes and data are under the bandgap folder, and identical to the glass folder.
-3) We separate all codes to Single and Cluster based on the dataset it use. Codes under the Single folder can be used to evaluate SparseXSingle and SparseYSingle datasets, and codes under the Cluster folder are for LOCO, SparseXCluster, and SparseYCluster.
-4) Here we take the bandgap-SparseXSingle as an example.
+3) We separate all codes into Single and Cluster based on the dataset they use. Codes under the Single folder can be used to evaluate SparseXSingle and SparseYSingle datasets, and codes under the Cluster folder are for LOCO, SparseXCluster, and SparseYCluster.
+4) Here we take the bandgap-SparseXSingle as an example:
 
 ```
 cd ./bandgap/code/Single/
 python adapt-RF-KMM.py
 ```
-
+Users can choose the algorithms they want to evaluate, and the dataset can also be modified in each code file.
 
