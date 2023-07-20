@@ -7,7 +7,7 @@ Code for Improving realistic material property prediction using domain adaptatio
 
 1) Set up a virtual environment for adapting models
 
-~~~Conda Setup:
+~~~
 conda install mpi4py
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install -e improved-diffusion/ 
