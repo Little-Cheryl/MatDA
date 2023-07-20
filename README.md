@@ -15,7 +15,7 @@ pip install matminer
 pip install numpy==1.23
 ~~~
 
-2) Set up a virtual environment for the modnet model as [https://github.com/ppdebreuck/modnet]
+2) Set up a virtual environment for the modnet model as [Modnet](ttps://github.com/ppdebreuck/modnet)
 
 
 ```
