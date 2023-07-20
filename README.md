@@ -19,7 +19,7 @@ pip install numpy==1.23
 
 
 ```
-conda create -n modnet
+conda create -n modnet python=3.9
 conda activate modnet
 pip install modnet
 ```
