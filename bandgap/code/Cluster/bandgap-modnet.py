@@ -76,7 +76,7 @@ for i, cluster_id in enumerate(range(0,ncluster)):
     pred = model.predict(test)
     score = np.absolute(pred.values-yt).mean()
 
-    print("src_only score: ", score)
+    print("modnet score: ", score)
     baseline_scores.append(score)
 
 print(f"modnet avg. accuracy:{sum(baseline_scores)/len(baseline_scores)}")
