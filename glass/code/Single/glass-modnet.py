@@ -87,10 +87,10 @@ for i, cluster_id in enumerate(range(0,ncluster)):
     y_pred = convert_to_boolean(pred.values)
     score = balanced_accuracy_score(yt,y_pred)
 
-    print("src_only score: ", score)
+    print("modnet score: ", score)
     baseline_scores.append(score)
     
-print(f"baseline avg. accuracy:{sum(baseline_scores)/len(baseline_scores)}")
-print("adapt scores", baseline_scores)
+print(f"modnet avg. accuracy:{sum(baseline_scores)/len(baseline_scores)}")
+print("modnet scores", baseline_scores)
 
 
