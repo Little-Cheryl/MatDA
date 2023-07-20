@@ -27,18 +27,14 @@ pip install modnet
 
 ### How to run the codes
 
-3) Set up a virtual environment for the ROOST model
+1) As mentioned in the paper, we have 5 bandgap datasets for regression and 5 glass datasets for classification.
+2) For regression problems, all codes and data are under the bandgap folder, and identical to the glass folder.
+3) We separate all codes to Single and Cluster based on the dataset it use. Codes under the Single folder can be used to evaluate SparseXSingle and SparseYSingle datasets, and codes under the Cluster folder are for LOCO, SparseXCluster, and SparseYCluster.
+4) Here we take the bandgap-SparseXSingle as an example.
 
 ```
-mkdir generation_outputs
-sh decode.sh
+cd ./bandgap/code/Single/
+python adapt-RF-KMM.py
 ```
 
-The generation is saved in ./generation_outputs.
-
-```
-sq2formula.py
-```
-
-The sequences are then conver to formulas and the formula results are saved to formulas.csv
 
