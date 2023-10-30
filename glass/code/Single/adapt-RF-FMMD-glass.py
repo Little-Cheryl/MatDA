@@ -13,9 +13,9 @@ from matminer.featurizers.composition import ElementProperty
 from adapt.feature_based import FMMD
 
 
-file_path = '../..data/SparseXSingle.json'
+file_path = '../../data/SparseXSingle.json'
 ncluster=50
-featurefile = '../..data/glass_features.csv'
+featurefile = '../../data/glass_features.csv'
 
 
 if not os.path.exists(featurefile):
