@@ -11,9 +11,9 @@ from matminer.featurizers.composition import ElementProperty
 from adapt.feature_based import CORAL
 from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 
-file_path = '../..data/SparseXCluster.json'
+file_path = '../../data/SparseXCluster.json'
 ncluster=50
-featurefile = '../..data/bandgap_features.csv'
+featurefile = '../../data/bandgap_features.csv'
 
 
 if not os.path.exists(featurefile):
