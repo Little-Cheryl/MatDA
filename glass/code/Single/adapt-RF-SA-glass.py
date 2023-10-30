@@ -14,9 +14,9 @@ import warnings
 from sklearn.exceptions import ConvergenceWarning
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
-file_path = '../..data/SparseXSingle.json'
+file_path = '../../data/SparseXSingle.json'
 ncluster=50
-featurefile = '../..data/glass_features.csv'
+featurefile = '../../data/glass_features.csv'
 
 
 if not os.path.exists(featurefile):
