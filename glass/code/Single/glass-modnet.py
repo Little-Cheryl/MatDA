@@ -15,9 +15,9 @@ from modnet.featurizers.presets import DeBreuck2020Featurizer
 from sklearn.metrics import balanced_accuracy_score
 import modnet
 
-file_path = '../..data/SparseXSingle.json'
+file_path = '../../data/SparseXSingle.json'
 ncluster=50
-featurefile = '../..data/glass_features.csv'
+featurefile = '../../data/glass_features.csv'
 
 
 if not os.path.exists(featurefile):
