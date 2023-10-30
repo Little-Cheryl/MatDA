@@ -11,9 +11,9 @@ import os
 from matminer.featurizers.composition import ElementProperty
 from adapt.feature_based import SA
 
-file_path = '../..data/SparseXCluster.json'
+file_path = '../../data/SparseXCluster.json'
 ncluster=50
-featurefile = '../..data/bandgap_features.csv'
+featurefile = '../../data/bandgap_features.csv'
 
 
 if not os.path.exists(featurefile):
